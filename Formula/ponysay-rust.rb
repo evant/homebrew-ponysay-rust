@@ -3,7 +3,7 @@ class PonysayRust < Formula
   homepage "https://github.com/evant/ponysay-rust"
   url "https://github.com/evant/ponysay-rust/archive/v0.1.tar.gz"
   version "0.1"
-  sha256 ""
+  sha256 "745d2f5c3d89c39fe09747946b28464dfd33c80badbd5b955c9ff33eeb7e0e08"
   head "https://github.com/evant/ponysay-rust.git"
 
   depends_on "rust" => :build
