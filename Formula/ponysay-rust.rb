@@ -1,10 +1,10 @@
 class PonysayRust < Formula
   desc "Bare-bones implementation of ponysay in rust"
   homepage "https://github.com/evant/ponysay-rust"
-  url "https://github.com/evant/ponysay-rust/archive/v0.1.tar.gz"
-  version "0.1"
-  sha256 "077e71c1cf7edbdd540c266e4dd514dd4428e892c14609d92a0917b20921e770"
-  head "https://github.com/evant/ponysay-rust.git"
+  url "https://github.com/evant/ponysay-rust/archive/v0.2.tar.gz"
+  version "0.2"
+  sha256 "495a7c4eed17cd75470b6dda04bab9199c3dc3bc99a2a47ff9cce6210dd0067d"
+  head "https://github.com/evant/ponysay-rust.git", branch: "mane"
 
   depends_on "rust" => :build
 
